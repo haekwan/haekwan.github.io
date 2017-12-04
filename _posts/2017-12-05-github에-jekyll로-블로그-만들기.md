@@ -1,10 +1,3 @@
----
-Layout: post
-Title: github에 jekyll로 블로그 만들기
-Date: 2017-12-05
----
+그냥, 한번 만들어보고 싶어서 만들어 봤다. 
 
-
-
-# github에 jekyll로 블로그 만들기
-
+참고는 https://xho95.github.io/blog/github/pages/jekyll/minima/theme/2017/03/04/Jekyll-Blog-with-Minima.html 를 많ㅇ
