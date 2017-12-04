@@ -1,10 +1,7 @@
-# Github에 jekyll로 블로그 만들기
-
-아무리 몰라도 이렇게 모르나…? 그래도 한시간은 걸렸다.
-
+[TOC]
 [https://xho95.github.io/blog/github/pages/jekyll/minima/theme/2017/03/04/Jekyll-Blog-with-Minima.html](https://xho95.github.io/blog/github/pages/jekyll/minima/theme/2017/03/04/Jekyll-Blog-with-Minima.html)를 참고 하였다. 
 
-## 시작
+# 시작
 
 저 링크에 써진대로 깃허브가 뭔지, 지킬이 뭔지 하나도 모른다. 그냥 만들어 봤다. 환경은 macOS.
 
@@ -39,6 +36,8 @@
 >4. 루비를 높은 버전으로 설치
 >5. [http://www.ruby-lang.org/en/documentation/installation/](http://www.ruby-lang.org/en/documentation/installation/)에 가니까 brew로 된다고 하던데, 그것도 설치되어 있지 않았다.
 >6. [https://brew.sh/index_ko.html](https://brew.sh/index_ko.html) 여기서 brew 설치
+
+
 1. 블로그 글 참조하여 다시 해봄. ```$ sudo gem install jekyll bundler```
 2. 오!
 
@@ -46,7 +45,7 @@
 
 1. 아무 폴더로 이동하여 블로그를 만들어본다. 난 도큐먼트 폴더에다 만들고 싶었기 때문에 도큐먼트 폴더로 이동. ```cd documents```
 2. ```$ jekyll new my-awesome-site``` 
-3. My-awesome-site라는 폴더가 생기고 그안에 여러가지 것들이 생긴다.
+3. my-awesome-site라는 폴더가 생기고 그안에 여러가지 것들이 생긴다.
 
 ### 잘 되는지 테스트 해본다
 
@@ -65,22 +64,20 @@
 3. ```cp -r users/documents/my-awesome-site/ ./```
    1. 근데 그냥 마우스로 드래그해서 옮겨도 될것 같다. 
 
-4. ```
-   $ git add .
-   $ git commit -m "my first blog"
-   ```
+4. ```$ git add .```
+   ```$ git commit -m "my first blog"```
+   아무일도 안일어나더라...
 
-   아무일도 안일어나더라…?
 
 5. ```$ git push origin master```
 
-6. http://username.github.io
+6. http://username.github.io 접속
 
 7. 잘 나온다!
 
 소요 시간은 잘 몰라서 이것 저것 살펴보다가 한시간 정도 걸린것 같다.
 
-### 간단한 세팅
+## 간단한 세팅
 
 1. github.com/username/username.github.io 접속
 2. _config.yml 클릭
