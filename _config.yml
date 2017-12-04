@@ -17,9 +17,8 @@ title: haekwan
 email: sjhk01@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   열심히 합니다.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/haekwan.github.io" # the subpath of your site, e.g. /blog
 url: "http://haekwan.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-facebook_username: choihaekwan
 github_username:  haekwan
 
 # Build settings
