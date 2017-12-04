@@ -1,7 +1,7 @@
 ---
-Layout: page
-Title: hello
-Permalink:/hello/
+layout: page
+title: hello
+permalink:/hello/
 ---
 
 helloworld
