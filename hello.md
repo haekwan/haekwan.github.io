@@ -1,8 +1,10 @@
 ---
 layout: page
 title: hello
-permalink:/hello/
+permalink: /hello/
 ---
+
+
 
 helloworld
 
